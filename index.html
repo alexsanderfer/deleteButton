@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Botão de Delete - Micro Interações</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="#" class="btn"><span></span><texto>Apagar</texto></a>
+
+    <script>
+      let btn = document.querySelector('.btn');
+      btn.onclick = function () {
+        btn.classList.toggle('active');
+      }
+    </script>
+
+  </body>
+</html>
